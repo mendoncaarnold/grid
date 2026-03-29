@@ -1,89 +1,17 @@
 [
-  {
-    "label": "First Name",
-    "value": "",
-    "type": "text",
-    "placeholder": "e.g. Jane",
-    "required": true
-  },
-  {
-    "label": "Last Name",
-    "value": "",
-    "type": "text",
-    "placeholder": "e.g. Doe",
-    "required": true
-  },
-  {
-    "label": "Date of Birth",
-    "value": "",
-    "type": "date",
-    "placeholder": "mm/dd/yyyy",
-    "required": true
-  },
-  {
-    "label": "Email",
-    "value": "",
-    "type": "text",
-    "placeholder": "jane@example.com",
-    "required": true
-  },
-  {
-    "label": "Phone",
-    "value": "",
-    "type": "text",
-    "placeholder": "+1 555-0100",
-    "required": false
-  },
-  {
-    "label": "Department",
-    "value": "",
-    "type": "select",
-    "placeholder": "Select...",
-    "required": true,
-    "options": ["Engineering", "Product", "Design", "DevOps", "HR", "Finance"]
-  },
-  {
-    "label": "Job Title",
-    "value": "",
-    "type": "text",
-    "placeholder": "e.g. Senior Engineer",
-    "required": false
-  },
-  {
-    "label": "Start Date",
-    "value": "",
-    "type": "date",
-    "placeholder": "mm/dd/yyyy",
-    "required": true
-  },
-  {
-    "label": "Employment Type",
-    "value": "",
-    "type": "select",
-    "placeholder": "Select...",
-    "required": true,
-    "options": ["Full-time", "Part-time", "Contract", "Intern"]
-  },
-  {
-    "label": "Office Location",
-    "value": "",
-    "type": "select",
-    "placeholder": "Select...",
-    "required": false,
-    "options": ["HQ", "Remote", "Hybrid", "Satellite"]
-  },
-  {
-    "label": "Manager ID",
-    "value": "",
-    "type": "text",
-    "placeholder": "e.g. EMP-0042",
-    "required": false
-  },
-  {
-    "label": "Notes",
-    "value": "",
-    "type": "textarea",
-    "placeholder": "Optional notes...",
-    "required": false
-  }
+  {"label":"First Name",     "value":"",  "type":"text",    "placeholder":"e.g. Jane",           "required":true},
+  {"label":"Last Name",      "value":"",  "type":"text",    "placeholder":"e.g. Doe",            "required":true},
+  {"label":"Date of Birth",  "value":"",  "type":"date",    "placeholder":"18/03/2026",          "required":true},
+  {"label":"Email",          "value":"",  "type":"text",    "placeholder":"jane@example.com",    "required":true},
+  {"label":"Phone",          "value":"",  "type":"text",    "placeholder":"+1 555-0100",         "required":false},
+  {"label":"Department",     "value":"",  "type":"select",  "placeholder":"Select...",           "required":true,
+   "options":["Engineering","Product","Design","DevOps","HR","Finance"]},
+  {"label":"Job Title",      "value":"",  "type":"text",    "placeholder":"e.g. Senior Engineer","required":false},
+  {"label":"Start Date",     "value":"",  "type":"date",    "placeholder":"18/03/2026",          "required":true},
+  {"label":"Employment Type","value":"",  "type":"select",  "placeholder":"Select...",           "required":true,
+   "options":["Full-time","Part-time","Contract","Intern"]},
+  {"label":"Office Location","value":"",  "type":"select",  "placeholder":"Select...",           "required":false,
+   "options":["HQ","Remote","Hybrid","Satellite"]},
+  {"label":"Manager ID",     "value":"",  "type":"text",    "placeholder":"e.g. EMP-0042",       "required":false},
+  {"label":"Notes",          "value":"",  "type":"textarea","placeholder":"Optional notes...",   "required":false}
 ]
